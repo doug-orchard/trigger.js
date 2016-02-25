@@ -6,9 +6,13 @@
 		var classes = elem.className.match(/\S+/g) || [],
 			index = classes.indexOf(className);
 
-		index >= 0 ? classes.splice(index, 1) : classes.push(className);
+		if(index >= 0) {
+          classes.splice(index, 1);
+        } else {
+          classes.push(className);
+	    }
 		elem.className = classes.join(' ');
-	}
+    }
 
 	function _getElementArray( selector ){
 		return Array.prototype.slice.call( document.querySelectorAll( selector ) );
