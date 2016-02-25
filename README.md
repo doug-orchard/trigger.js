@@ -7,7 +7,7 @@ Sometimes all you need is a simple way to handle events on your site that apply 
 
 The jQuery way makes you add javascript or each event manually, trigger.js does away with this premise and jQuery and allows you to attach events without any javascript added ( other then trigger.js ).
 
-trigger.js purpose is only to allow you to create simple UI effects with little effort. Define atttributes on the element in the HTML what type of action ( 'click' ), the target element that you want to toggle a className action and vioia! EVENTS!
+trigger.js purpose is only to allow you to create simple UI effects with little effort. Define attributes on the element in the HTML what type of action ( 'click' ), the target element that you want to toggle a className action and voilà! EVENTS!
 
 The rest is up to you.
 
@@ -18,7 +18,7 @@ Trigger.js will search for all elements on the page with the class of "trigger" 
 
 place these on the element that will trigger the event.
 
-"data-event" - the event type, eg. 'click', 'ouseOver' -- see events page on MDN
+"data-event" - the event type, eg. 'click', 'mouseover' -- see more events on the page on MDN https://developer.mozilla.org/en-US/docs/Web/Events
 "data-target" - an array string of the elements to target eg. data-target=".sidemenu, .header, footer"
 "data-action" - the class you wish to add to the target element
 
@@ -67,7 +67,7 @@ place these on the element that will trigger the event.
 		        transform: translateX( 0% );
 	}
 
-	js-bin.com link http://jsbin.com/punixe
+js-bin.com example link http://jsbin.com/punixe
 
 ## Browser support
 Currently it only supports the evergreen browsers.
