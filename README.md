@@ -15,6 +15,9 @@ Pretty much. Have look at the example below and or try the link to the JSbin.com
 
 Now, the rest is up to you.
 
+Also it's super small!!! ( That's what she said? ).
+Coming in at 668 bytes gzipped (1.75KB uncompressed)
+
 ## How it works
 trigger.js will search for all elements on the page with the class of "trigger" and attached an event that is based on the attributes ( see below 'Attributes required' ) on said element.
 
