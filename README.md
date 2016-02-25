@@ -30,6 +30,28 @@ place these on the element that will trigger the event.
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
 		<title>trigger.js</title>
+		<style>
+			.sidemenu{
+				width: 300px;
+				position:fixed;
+				background-color: #333;
+				color: #fff;
+				right: 0;
+				top: 0;
+				height: 100%;
+				-webkit-transform: translateX( 100% );
+					-ms-transform: translateX( 100% );
+						transform: translateX( 100% );
+				-webkit-transition: all 200ms ease;
+						transition: all 200ms ease;
+			}
+
+			.sidemenu--open{
+				-webkit-transform: translateX( 0% );
+					-ms-transform: translateX( 0% );
+						transform: translateX( 0% );
+			}
+		</style>
 	</head>
 	<body>
 
@@ -45,27 +67,6 @@ place these on the element that will trigger the event.
 
 	</body>
 	</html>
-
-	.sidemenu{
-		width: 300px;
-		position:fixed;
-		background-color: #333;
-		color: #fff;
-		right: 0;
-		top: 0;
-		height: 100%;
-		-webkit-transform: translateX( 100% );
-		    -ms-transform: translateX( 100% );
-		        transform: translateX( 100% );
-		-webkit-transition: all 200ms ease;
-		        transition: all 200ms ease;
-	}
-
-	.sidemenu--open{
-		-webkit-transform: translateX( 0% );
-		    -ms-transform: translateX( 0% );
-		        transform: translateX( 0% );
-	}
 
 js-bin.com example link http://jsbin.com/punixe
 
